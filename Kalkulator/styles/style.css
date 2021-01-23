@@ -1,0 +1,294 @@
+body
+{
+    background-color:#212121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    margin: 0 !important;
+}
+
+/* nieodwiedzony  */
+a:link
+{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/* odwiedzony */
+a:visited
+{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/* po najechaniu kursorem */
+a:hover
+{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    background-color: #006600;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoL
+{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoR
+{
+    float: left;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu
+{
+    background-color:#003300;
+    margin-top:5px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    left: 139px;
+    z-index: 100;
+
+    border-bottom: #006600 solid 2px;
+    border-top: #006600 solid 2px;
+}
+
+.option
+{
+    float: left;
+    min-width: 118 px;
+    height: 25px;
+    padding: 10px;
+    border-right: 1px solid #04280B;
+    text-decoration: none;
+}
+
+.option:hover
+{
+    background-color:#006600 ;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    height: 40px;
+    line-height: 200%;
+    text-align: center;
+}
+
+ol a
+{
+    display: block;
+}
+
+ol > li
+{
+    float: left;
+    width: 138px;
+    height: 40px;
+    border-right: 1px solid #04280B;
+}
+
+ol > li:hover
+{
+    background-color:#006600 ;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+ol > li:hover > a
+{
+    color: #04280B;
+}
+
+ol > li >ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+
+ol > li:hover > ul
+{
+    display: block;
+}
+
+ol > li > ul > li
+{
+    background-color: #006600;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed #003300;
+}
+
+ol > li > ul > li:hover
+{
+    background-color: #003300;
+}
+
+ol > li > ul > li:hover > a
+{
+    color: #ffffff;
+}
+
+#sidebar
+{
+    float: left;
+    background-color: #003300;
+    margin-top: 5px;
+    width: 138px;
+    min-height: 580px;
+    text-align: left;
+    border-right: 2px solid #04280B;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.optionSidebar
+{
+    float: left;
+    min-width: 120px;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid #04280B;
+    opacity: 0.8;
+    text-decoration: none;
+    
+}
+
+.optionSidebar a
+{
+    display: block;
+    min-width: 130px;
+    min-height: 50px;
+    border-block-end-width: 120px;
+    
+}
+
+.optionSidebar:hover
+{
+    background-color:#006600 ;
+    cursor:pointer;
+    text-decoration: none;
+    width: 120px;
+    display: block;
+}
+
+.optionSidebar:hover a
+{
+    color: #04280B;
+    display: block;
+}
+
+
+
+#content
+{
+    float: left;
+    min-height: 580px;
+    background-color: #323232;
+    margin-top: 5px;
+    width: 1460px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.bigtitle
+{
+  font-size: 40px;
+  margin-left: 10px;  
+}
+
+.linia
+{
+    height: 5px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #212121;
+}
+
+#footer
+{
+    clear: both;
+    font-size: 10px;
+    opacity: 0.5;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb
+{
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin-right: 5px;
+}
+
+.fb:hover
+{
+    background-color: #4668b3;
+}
+
+.ig
+{
+    height: 35px;
+    width: 35px;
+    float: left;
+    
+    
+}
+
+.ig:hover
+{
+    background-color: #D16BD1;
+}
+
+input[type=submit]
+{
+    width: 200px;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type=submit]:hover
+{
+    background-color: #323232;
+    color: #212121;
+}
+
+.inputSubmit
+{
+    position: absolute; top: 100px; left: 100px;
+}
